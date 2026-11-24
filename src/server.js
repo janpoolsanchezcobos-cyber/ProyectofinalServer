@@ -1,0 +1,11 @@
+const express=require("express");
+const cors=require("cors");
+const app=express();
+const PORT=3000;
+app.use(cors());
+app.use(express.json());
+app.get("/",(req,res)=>res.json({message:"API de productos activa",products:"/api/products"}));
+app.use("/api/products",require("./routes/productRoutes"));
+app.use((req,res)=>res.status(404).json({message:"Ruta no encontrada"}));
+app.use((err,req,res,next)=>{console.error(err);res.status(500).json({message:"Error interno del servidor"});});
+app.listen(PORT,()=>console.log(`API lista en http://localhost:${PORT}`));

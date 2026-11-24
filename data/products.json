@@ -1,0 +1,37 @@
+[
+  {
+    "id": 1,
+    "category": "Plantas",
+    "name": "Rosa",
+    "stock": 15,
+    "imageUrl": "https://images.unsplash.com/photo-1614594975525-e45190c55d0b?w=800"
+  },
+  {
+    "id": 2,
+    "category": "Reciclaje",
+    "name": "Bolsa ecológica",
+    "stock": 40,
+    "imageUrl": "https://images.unsplash.com/photo-1591871937573-74dbba515c4c?w=800"
+  },
+  {
+    "id": 3,
+    "category": "Hogar verde",
+    "name": "Cepillo de bambú",
+    "stock": 28,
+    "imageUrl": "https://images.unsplash.com/photo-1607613009820-a29f7bb81c04?w=800"
+  },
+  {
+    "id": 4,
+    "category": "Plantas",
+    "name": "Girasol",
+    "stock": 22,
+    "imageUrl": "https://images.unsplash.com/photo-1509423350716-9f20460e27f2?w=800"
+  },
+  {
+    "id": 5,
+    "category": "Reciclaje",
+    "name": "Botella reutilizable",
+    "stock": 30,
+    "imageUrl": "https://images.unsplash.com/photo-1602143407151-7111542de6e8?w=800"
+  }
+]
